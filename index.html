@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CALCULADORA</title>
+  <style type="text/css">
+  @import url('https://fonts.googleapis.com/css?family=Red+Hat+Text&display=swap');
+  body{
+    margin:0;
+    padding:0;
+    background-color:#E8E8E8;
+  }
+
+  #calculadora{
+    width:500px;
+    height:600px;
+    background:rgba(106,106,106,0.5);
+    border:1px solid black;
+    border-radius: 10px;
+    margin:auto;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    padding:10px;
+  }
+
+  label{
+    font-family:Red Hat text;
+  }
+
+  .numbers-1{
+    background: black;
+    width:120px;
+    height:100px;
+    display:inline-block;
+    color:white;
+    font-family:Red Hat text;
+    font-size:40px;
+    text-align: center;
+    border:1px solid white;
+  }
+
+  .numbers-2{
+    background: black;
+    width:120px;
+    height:100px;
+    display:inline-block;
+    color:white;
+    font-family:Red Hat text;
+    font-size:40px;
+    text-align: center;
+    border:1px solid white;
+  }
+
+  .numbers-3{
+    background: black;
+    width:120px;
+    height:100px;
+    display:inline-block;
+    color:white;
+    font-family:Red Hat text;
+    font-size:40px;
+    text-align: center;
+    border:1px solid white;
+  }
+
+  #number_1:hover{
+    background:#202020;
+  }
+
+  #number_2:hover{
+    background:#202020;
+  }
+
+  #number_3:hover{
+    background:#202020;
+  }
+
+  #number_4:hover{
+    background:#202020;
+  }
+
+  #number_5:hover{
+    background:#202020;
+  }
+
+  #number_6:hover{
+    background:#202020;
+  }
+
+  #number_7:hover{
+    background:#202020;
+  }
+
+  #number_8:hover{
+    background:#202020;
+  }
+
+  #number_9:hover{
+    background:#202020;
+  }
+
+  #number_0:hover{
+    background:#202020;
+  }
+
+  #key_point:hover{
+    background:#202020;
+  }
+
+  #key_igual:hover{
+    background:#202020;
+  }
+
+  </style>
+  <script type="text/javascript" src="JS/jquery.js"></script>
+  <script type="text/javascript" src="JS/calculadora.js"></script>
+</head>
+<body>
+  <div id="calculadora">
+    <div style="background:black; width:490px; height:100px; padding:5px; overflow-x: scroll; border-radius:10px;">
+      <div style="float: left; position: fixed;">
+    <label style="font-size:20px; color:white;">0</label>
+  </div>
+    <br>
+    <br>
+    <label style="font-size:35px; color:white; float:left; text-align:bottom;">0</label>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="numbers-1" id="number_1">1</div>
+    <div class="numbers-1" id="number_2">2</div>
+    <div class="numbers-1" id="number_3">3</div>
+    <div class="numbers-1" id="key_/">/</div>
+    <br>
+    <div class="numbers-2" id="number_4">4</div>
+    <div class="numbers-2" id="number_5">5</div>
+    <div class="numbers-2" id="number_6">6</div>
+    <div class="numbers-1" id="key_*">x</div>
+    <br>
+    <div class="numbers-3" id="number_7">7</div>
+    <div class="numbers-3" id="number_8">8</div>
+    <div class="numbers-3" id="number_9">9</div>
+    <div class="numbers-1" id="key_plus">+</div>
+    <br>
+    <div class="numbers-3" id="number_0">0</div>
+    <div class="numbers-3" id="key_point">.</div>
+    <div class="numbers-3" id="key_igual">=</div>
+    <div class="numbers-1" id="key_-">-</div>
+  </div>
+</body>
+</html>
